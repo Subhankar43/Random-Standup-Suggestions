@@ -1,4 +1,4 @@
-# ** Random Standup Suggestions **
+# **Random Standup Suggestions**
 - Code is not responsive and also little bit rough at this moment. 
 - For better experience use it on PC.
 - Gonna make new UI and add responsiveness on this website in near future.
