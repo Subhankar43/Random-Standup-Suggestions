@@ -21,7 +21,7 @@ fetch('video.json')
       const embedUrl = `https://www.youtube.com/embed/${randomVideoId}?autoplay=1`;
 
       // Replace the contents of the video container with the new video
-      videoContainer.innerHTML = `<iframe src="${embedUrl}" frameborder="0" allowfullscreen></iframe>`;
+      videoContainer.innerHTML = `<iframe src="${embedUrl}" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
     }
 
     // Trigger the random video function when the play button is clicked
